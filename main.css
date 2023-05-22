@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(92, 164, 164);
+}
+
+h1 {
+    font-family: Ramabhadra, sans-serif;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 64px;
+}
+
+header {
+    background-color: darkcyan;
+    padding: 16px 0;
+    color: rgb(207, 219, 230);
+}
+
+.container {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-right: 8%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+input {
+    display: block;
+    margin: 8px;
+    width: 300px;
+    height: 25px;
+    box-sizing: border-box;
+    width: 35%;
+    border: 1px solid #000000;
+}
+
+#form-atividade input[type="text"],
+#form-atividade input[type="number"] {
+    padding: 8px;
+}
+
+
+button {
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-left: 120px;
+    width: 80px;
+    height: 20px;
+    background-color: rgb(50, 50, 66);
+    color: white;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape {
+    margin-top: auto;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+p {
+    margin-left: 10%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tabela-contatos th,
+#tabela-contatos td {
+    margin-top: 60px;
+    width: 200px;
+}
+
+#form-tabela {
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+h3 {
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-atividade {
+    margin-left: 40px;
+}
+
+th {
+    background-color: #3131396e;
+    color: rgb(255, 255, 255);
+}
+
+#tabela-contatos td:nth-child(1),
+#tabela-contatos td:nth-child(2) {
+    background-color: #e5dfdf;
+}
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Marque a sua consulta</h1>
+    </header>
+    <div class="container">
+        <h2>Agende sua consulta aqui</h2>
+        <form id="form-atividade">
+    <input type="text" id="nome-atividade" required placeholder="Nome" />
+    <input type="number" id="numero-atividade" required placeholder="Numero de contato"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="9" />
+    <button type="submit">Enviar</button>
+        </form>
+        <form id="form-tabela">
+        <div id="tabela-contatos">
+        <h3>Contatos</h3>
+            <table id="tabela-contatos">
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </table>
+            </div>
+        </form>
+    </div>
+    <footer class="rodape">
+        <div>
+            <p>©2023-Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
